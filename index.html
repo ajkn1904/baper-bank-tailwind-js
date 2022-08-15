@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baper Bank</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-   <section>
-    <h1>Welcome To <span> Baper Bank!</span>
-       </h1>
-   </section> 
+   <header>
+    <h1 class="text-5xl text-green-700 text-center mt-10">Welcome To my <span class="font-semibold text-fuchsia-700"> Baper Bank!</span></h1>
+   </header> 
 
-    <script src="interactiveScript.js"></script>
+<main>
+    <section class="loginform bg-emerald-100 p-10 mt-9 mx-auto text-center w-9/12 rounded">
+        <h3 class="text-4xl text-center my-10">Please Login</h3>
+        <div>
+            <input id="user-email" class="border-2 px-2 rounded-md w-9/12 mt-4 h-10" type="email" placeholder="Enter Your Email">
+            
+            <input id="user-pass" class="border-2 px-2 rounded-md w-9/12 mt-4 h-10"  type="password" placeholder="Enter Password"><br>
+
+            <button id="sbmt-btn" class="bg-orange-700 hover:bg-fuchsia-700 p-3 my-4 rounded-lg text-white font-semibold">SUBMIT</button>
+        </div>
+    </section>
+
+</main>
+
+<script src="interactiveScript.js"></script>
 </body>
 </html>
